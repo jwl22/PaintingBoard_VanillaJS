@@ -1,6 +1,6 @@
 const canvas = document.querySelector("#jsCanvas");
 const ctx = canvas.getContext("2d");
-const colors = document.querySelectorAll(".jsColor");
+const colors = document.querySelectorAll(".jsColors");
 const range = document.querySelector("#jsRange");
 const mode = document.querySelector("#jsMode");
 const saveBtn = document.querySelector("#jsSave");
@@ -47,7 +47,7 @@ function onMouseDown(event) {
 function handleColorClick(event) {
     const color = event.target.style.backgroundColor;
     ctx.strokeStyle = color;
-    ctx.fillStyle = ctx.strokeStyle;
+    ctx.fillStyle = color;
 }
 
 function handleRangeChange(event) {
