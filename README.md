@@ -1,4 +1,4 @@
 # PaintingBoard_VanillaJS
-JS를 이용한 그림판입니다.
+Paintboard using JS.
 
-출처: https://nomadcoders.co/javascript-for-beginners-2
+source: https://nomadcoders.co/javascript-for-beginners-2
